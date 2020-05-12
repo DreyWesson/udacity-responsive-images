@@ -1,0 +1,49 @@
+/*
+
+Your styles go here!
+
+Hint! You'll probably want to start by styling:
+  * <body>
+  * <article>
+  * <h1>
+  * <img>
+
+I've left some boilerplate below for you.
+
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  transition: width 0.5s;
+}
+@media screen and (min-width: 800px) {
+  article {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  article {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
